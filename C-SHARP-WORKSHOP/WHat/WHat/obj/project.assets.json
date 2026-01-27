@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dev.DESKTOP-PD8M4U7\\source\\repos\\WHat\\WHat\\WHat.csproj",
+      "projectUniqueName": "C:\\Users\\dev.DESKTOP-PD8M4U7\\Desktop\\CTALIM\\C-SHARP-WORKSHOP\\WHat\\WHat\\WHat.csproj",
       "projectName": "WHat",
-      "projectPath": "C:\\Users\\dev.DESKTOP-PD8M4U7\\source\\repos\\WHat\\WHat\\WHat.csproj",
+      "projectPath": "C:\\Users\\dev.DESKTOP-PD8M4U7\\Desktop\\CTALIM\\C-SHARP-WORKSHOP\\WHat\\WHat\\WHat.csproj",
       "packagesPath": "C:\\Users\\dev.DESKTOP-PD8M4U7\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dev.DESKTOP-PD8M4U7\\source\\repos\\WHat\\WHat\\obj\\",
+      "outputPath": "C:\\Users\\dev.DESKTOP-PD8M4U7\\Desktop\\CTALIM\\C-SHARP-WORKSHOP\\WHat\\WHat\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dev.DESKTOP-PD8M4U7\\AppData\\Roaming\\NuGet\\NuGet.Config",
