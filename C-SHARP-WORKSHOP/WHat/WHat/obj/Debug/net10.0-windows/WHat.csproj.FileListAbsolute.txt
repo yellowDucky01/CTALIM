@@ -1,0 +1,16 @@
+C:\Users\dev.DESKTOP-PD8M4U7\source\repos\WHat\WHat\bin\Debug\net10.0-windows\WHat.exe
+C:\Users\dev.DESKTOP-PD8M4U7\source\repos\WHat\WHat\bin\Debug\net10.0-windows\WHat.deps.json
+C:\Users\dev.DESKTOP-PD8M4U7\source\repos\WHat\WHat\bin\Debug\net10.0-windows\WHat.runtimeconfig.json
+C:\Users\dev.DESKTOP-PD8M4U7\source\repos\WHat\WHat\bin\Debug\net10.0-windows\WHat.dll
+C:\Users\dev.DESKTOP-PD8M4U7\source\repos\WHat\WHat\bin\Debug\net10.0-windows\WHat.pdb
+C:\Users\dev.DESKTOP-PD8M4U7\source\repos\WHat\WHat\obj\Debug\net10.0-windows\WHat.Form1.resources
+C:\Users\dev.DESKTOP-PD8M4U7\source\repos\WHat\WHat\obj\Debug\net10.0-windows\WHat.csproj.GenerateResource.cache
+C:\Users\dev.DESKTOP-PD8M4U7\source\repos\WHat\WHat\obj\Debug\net10.0-windows\WHat.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dev.DESKTOP-PD8M4U7\source\repos\WHat\WHat\obj\Debug\net10.0-windows\WHat.AssemblyInfoInputs.cache
+C:\Users\dev.DESKTOP-PD8M4U7\source\repos\WHat\WHat\obj\Debug\net10.0-windows\WHat.AssemblyInfo.cs
+C:\Users\dev.DESKTOP-PD8M4U7\source\repos\WHat\WHat\obj\Debug\net10.0-windows\WHat.csproj.CoreCompileInputs.cache
+C:\Users\dev.DESKTOP-PD8M4U7\source\repos\WHat\WHat\obj\Debug\net10.0-windows\WHat.dll
+C:\Users\dev.DESKTOP-PD8M4U7\source\repos\WHat\WHat\obj\Debug\net10.0-windows\refint\WHat.dll
+C:\Users\dev.DESKTOP-PD8M4U7\source\repos\WHat\WHat\obj\Debug\net10.0-windows\WHat.pdb
+C:\Users\dev.DESKTOP-PD8M4U7\source\repos\WHat\WHat\obj\Debug\net10.0-windows\WHat.genruntimeconfig.cache
+C:\Users\dev.DESKTOP-PD8M4U7\source\repos\WHat\WHat\obj\Debug\net10.0-windows\ref\WHat.dll
