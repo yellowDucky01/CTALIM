@@ -44,13 +44,12 @@
             btn1 = new Button();
             btn2 = new Button();
             btn3 = new Button();
-            btnPeriod = new Button();
+            btnDecimalPoint = new Button();
             btnZero = new Button();
-            button19 = new Button();
-            label1 = new Label();
+            btnPlusMinus = new Button();
             textbInput = new TextBox();
             panel1 = new Panel();
-            label2 = new Label();
+            labelResult = new Label();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -67,7 +66,7 @@
             btnDel.TabIndex = 1;
             btnDel.Text = "Del";
             btnDel.UseVisualStyleBackColor = false;
-            btnDel.Click += btnFunction_Click;
+            btnDel.Click += btnDel_Click;
             // 
             // btnDivide
             // 
@@ -82,7 +81,7 @@
             btnDivide.TabIndex = 2;
             btnDivide.Text = "/";
             btnDivide.UseVisualStyleBackColor = false;
-            btnDivide.Click += btnFunction_Click;
+            btnDivide.Click += btnDivide_Click;
             // 
             // btnTimes
             // 
@@ -97,7 +96,7 @@
             btnTimes.TabIndex = 5;
             btnTimes.Text = "X";
             btnTimes.UseVisualStyleBackColor = false;
-            btnTimes.Click += btnFunction_Click;
+            btnTimes.Click += btnTimes_Click;
             // 
             // btnMinus
             // 
@@ -112,7 +111,7 @@
             btnMinus.TabIndex = 6;
             btnMinus.Text = "-";
             btnMinus.UseVisualStyleBackColor = false;
-            btnMinus.Click += btnFunction_Click;
+            btnMinus.Click += btnMinus_Click;
             // 
             // btnPlus
             // 
@@ -127,7 +126,7 @@
             btnPlus.TabIndex = 7;
             btnPlus.Text = "+";
             btnPlus.UseVisualStyleBackColor = false;
-            btnPlus.Click += btnFunction_Click;
+            btnPlus.Click += btnPlus_Click;
             // 
             // btnEqual
             // 
@@ -142,7 +141,7 @@
             btnEqual.TabIndex = 8;
             btnEqual.Text = "=";
             btnEqual.UseVisualStyleBackColor = false;
-            btnEqual.Click += btnFunction_Click;
+            btnEqual.Click += btnEqual_Click;
             // 
             // btn7
             // 
@@ -157,7 +156,7 @@
             btn7.TabIndex = 9;
             btn7.Text = "7";
             btn7.UseVisualStyleBackColor = false;
-            btn7.Click += btnNumber_Click;
+            btn7.Click += btn7_Click;
             // 
             // btnClear
             // 
@@ -172,7 +171,7 @@
             btnClear.TabIndex = 10;
             btnClear.Text = "C";
             btnClear.UseVisualStyleBackColor = false;
-            btnClear.Click += btnFunction_Click;
+            btnClear.Click += btnClear_Click;
             // 
             // btn8
             // 
@@ -187,7 +186,7 @@
             btn8.TabIndex = 11;
             btn8.Text = "8";
             btn8.UseVisualStyleBackColor = false;
-            btn8.Click += btnNumber_Click;
+            btn8.Click += btn8_Click;
             // 
             // btn9
             // 
@@ -202,7 +201,7 @@
             btn9.TabIndex = 12;
             btn9.Text = "9";
             btn9.UseVisualStyleBackColor = false;
-            btn9.Click += btnNumber_Click;
+            btn9.Click += btn9_Click;
             // 
             // btn6
             // 
@@ -217,7 +216,7 @@
             btn6.TabIndex = 13;
             btn6.Text = "6";
             btn6.UseVisualStyleBackColor = false;
-            btn6.Click += btnNumber_Click;
+            btn6.Click += btn6_Click;
             // 
             // btn5
             // 
@@ -232,7 +231,7 @@
             btn5.TabIndex = 14;
             btn5.Text = "5";
             btn5.UseVisualStyleBackColor = false;
-            btn5.Click += btnNumber_Click;
+            btn5.Click += btn5_Click;
             // 
             // btn4
             // 
@@ -247,7 +246,7 @@
             btn4.TabIndex = 15;
             btn4.Text = "4";
             btn4.UseVisualStyleBackColor = false;
-            btn4.Click += btnNumber_Click;
+            btn4.Click += btn4_Click;
             // 
             // btn1
             // 
@@ -262,7 +261,7 @@
             btn1.TabIndex = 16;
             btn1.Text = "1";
             btn1.UseVisualStyleBackColor = false;
-            btn1.Click += btnNumber_Click;
+            btn1.Click += btn1_Click;
             // 
             // btn2
             // 
@@ -277,7 +276,7 @@
             btn2.TabIndex = 17;
             btn2.Text = "2";
             btn2.UseVisualStyleBackColor = false;
-            btn2.Click += btnNumber_Click;
+            btn2.Click += btn2_Click;
             // 
             // btn3
             // 
@@ -292,21 +291,21 @@
             btn3.TabIndex = 18;
             btn3.Text = "3";
             btn3.UseVisualStyleBackColor = false;
-            btn3.Click += btnNumber_Click;
+            btn3.Click += btn3_Click;
             // 
-            // btnPeriod
+            // btnDecimalPoint
             // 
-            btnPeriod.BackColor = Color.DimGray;
-            btnPeriod.FlatAppearance.BorderColor = Color.Black;
-            btnPeriod.FlatAppearance.BorderSize = 0;
-            btnPeriod.Font = new Font("Comic Sans MS", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnPeriod.ForeColor = SystemColors.ControlLight;
-            btnPeriod.Location = new Point(25, 378);
-            btnPeriod.Name = "btnPeriod";
-            btnPeriod.Size = new Size(78, 52);
-            btnPeriod.TabIndex = 19;
-            btnPeriod.Text = ".";
-            btnPeriod.UseVisualStyleBackColor = false;
+            btnDecimalPoint.BackColor = Color.DimGray;
+            btnDecimalPoint.FlatAppearance.BorderColor = Color.Black;
+            btnDecimalPoint.FlatAppearance.BorderSize = 0;
+            btnDecimalPoint.Font = new Font("Comic Sans MS", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnDecimalPoint.ForeColor = SystemColors.ControlLight;
+            btnDecimalPoint.Location = new Point(25, 378);
+            btnDecimalPoint.Name = "btnDecimalPoint";
+            btnDecimalPoint.Size = new Size(78, 52);
+            btnDecimalPoint.TabIndex = 19;
+            btnDecimalPoint.Text = ".";
+            btnDecimalPoint.UseVisualStyleBackColor = false;
             // 
             // btnZero
             // 
@@ -321,29 +320,21 @@
             btnZero.TabIndex = 20;
             btnZero.Text = "0";
             btnZero.UseVisualStyleBackColor = false;
-            btnZero.Click += btnNumber_Click;
+            btnZero.Click += btnZero_Click;
             // 
-            // button19
+            // btnPlusMinus
             // 
-            button19.BackColor = Color.DimGray;
-            button19.FlatAppearance.BorderColor = Color.Black;
-            button19.FlatAppearance.BorderSize = 0;
-            button19.Font = new Font("Comic Sans MS", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button19.ForeColor = SystemColors.ControlLight;
-            button19.Location = new Point(193, 377);
-            button19.Name = "button19";
-            button19.Size = new Size(78, 52);
-            button19.TabIndex = 21;
-            button19.Text = "+/-";
-            button19.UseVisualStyleBackColor = false;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Location = new Point(285, 32);
-            label1.Name = "label1";
-            label1.Size = new Size(0, 15);
-            label1.TabIndex = 22;
+            btnPlusMinus.BackColor = Color.DimGray;
+            btnPlusMinus.FlatAppearance.BorderColor = Color.Black;
+            btnPlusMinus.FlatAppearance.BorderSize = 0;
+            btnPlusMinus.Font = new Font("Comic Sans MS", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnPlusMinus.ForeColor = SystemColors.ControlLight;
+            btnPlusMinus.Location = new Point(193, 377);
+            btnPlusMinus.Name = "btnPlusMinus";
+            btnPlusMinus.Size = new Size(78, 52);
+            btnPlusMinus.TabIndex = 21;
+            btnPlusMinus.Text = "+/-";
+            btnPlusMinus.UseVisualStyleBackColor = false;
             // 
             // textbInput
             // 
@@ -351,9 +342,11 @@
             textbInput.Font = new Font("Segoe UI", 48F, FontStyle.Regular, GraphicsUnit.Point, 0);
             textbInput.Location = new Point(5, 5);
             textbInput.Name = "textbInput";
+            textbInput.ReadOnly = true;
             textbInput.Size = new Size(312, 93);
             textbInput.TabIndex = 0;
-            textbInput.TextChanged += textBox1_TextChanged_1;
+            textbInput.Text = "0";
+            textbInput.TextAlign = HorizontalAlignment.Right;
             // 
             // panel1
             // 
@@ -365,14 +358,17 @@
             panel1.Size = new Size(322, 101);
             panel1.TabIndex = 23;
             // 
-            // label2
+            // labelResult
             // 
-            label2.AutoSize = true;
-            label2.Location = new Point(262, 17);
-            label2.Name = "label2";
-            label2.Size = new Size(58, 15);
-            label2.TabIndex = 24;
-            label2.Text = "HAHAHA";
+            labelResult.Font = new Font("Segoe UI", 24F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            labelResult.ForeColor = SystemColors.ButtonHighlight;
+            labelResult.Location = new Point(30, 18);
+            labelResult.Name = "labelResult";
+            labelResult.RightToLeft = RightToLeft.No;
+            labelResult.Size = new Size(312, 45);
+            labelResult.TabIndex = 24;
+            labelResult.Text = "0";
+            labelResult.TextAlign = ContentAlignment.TopRight;
             // 
             // Form1
             // 
@@ -380,12 +376,11 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ControlDarkDark;
             ClientSize = new Size(389, 450);
-            Controls.Add(label2);
+            Controls.Add(labelResult);
             Controls.Add(panel1);
-            Controls.Add(label1);
-            Controls.Add(button19);
+            Controls.Add(btnPlusMinus);
             Controls.Add(btnZero);
-            Controls.Add(btnPeriod);
+            Controls.Add(btnDecimalPoint);
             Controls.Add(btn3);
             Controls.Add(btn2);
             Controls.Add(btn1);
@@ -407,7 +402,6 @@
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
@@ -426,13 +420,12 @@
         private Button btn1;
         private Button btn2;
         private Button btn3;
-        private Button btnPeriod;
+        private Button btnDecimalPoint;
         private Button btnZero;
-        private Button button19;
-        private Label label1;
+        private Button btnPlusMinus;
         private TextBox textbInput;
         private Panel panel1;
-        private Label label2;
         private Button btn7;
+        private Label labelResult;
     }
 }
