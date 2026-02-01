@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dev.DESKTOP-PD8M4U7\\Desktop\\CTALIM\\C-SHARP-WORKSHOP\\WHat\\WHat\\WHat.csproj": {}
+    "C:\\Users\\manuel\\Desktop\\CTALIM\\C-SHARP-WORKSHOP\\WHat\\WHat\\WHat.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dev.DESKTOP-PD8M4U7\\Desktop\\CTALIM\\C-SHARP-WORKSHOP\\WHat\\WHat\\WHat.csproj": {
+    "C:\\Users\\manuel\\Desktop\\CTALIM\\C-SHARP-WORKSHOP\\WHat\\WHat\\WHat.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dev.DESKTOP-PD8M4U7\\Desktop\\CTALIM\\C-SHARP-WORKSHOP\\WHat\\WHat\\WHat.csproj",
+        "projectUniqueName": "C:\\Users\\manuel\\Desktop\\CTALIM\\C-SHARP-WORKSHOP\\WHat\\WHat\\WHat.csproj",
         "projectName": "WHat",
-        "projectPath": "C:\\Users\\dev.DESKTOP-PD8M4U7\\Desktop\\CTALIM\\C-SHARP-WORKSHOP\\WHat\\WHat\\WHat.csproj",
-        "packagesPath": "C:\\Users\\dev.DESKTOP-PD8M4U7\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dev.DESKTOP-PD8M4U7\\Desktop\\CTALIM\\C-SHARP-WORKSHOP\\WHat\\WHat\\obj\\",
+        "projectPath": "C:\\Users\\manuel\\Desktop\\CTALIM\\C-SHARP-WORKSHOP\\WHat\\WHat\\WHat.csproj",
+        "packagesPath": "C:\\Users\\manuel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\manuel\\Desktop\\CTALIM\\C-SHARP-WORKSHOP\\WHat\\WHat\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\dev.DESKTOP-PD8M4U7\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\manuel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
