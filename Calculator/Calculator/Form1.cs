@@ -175,15 +175,17 @@ namespace Calculator
 
         private void btnDel_Click(object sender, EventArgs e)
         {
-            if (textbInput.Text.Length > 0)
+            if (textbInput.Text.Length >= 0)
             {
                 textbInput.Text = textbInput.Text.Remove(textbInput.Text.Length - 1);
                 labelResult.Text = labelResult.Text.Remove(labelResult.Text.Length - 1);
             }
-            if (textbInput.Text == "")
+
+            if (textbInput.Text.Length == 0)
             {
                 textbInput.Text = "0";
-                labelResult.Text = "";
+                labelResult.Text = "0";
+                return;
             }
         }
 
@@ -194,6 +196,10 @@ namespace Calculator
             textbInput.Text += "";
             isOpClicked = true;
             labelResult.Text = value1.ToString() + " /";
+            if (textbInput.Text == "0" || textbInput.Text == "")
+            {
+                labelResult.Text = "Cannot divide by zero";
+            }
         }
 
         private void btnTimes_Click(object sender, EventArgs e)
@@ -225,7 +231,10 @@ namespace Calculator
 
         private void btnEqual_Click(object sender, EventArgs e)
         {
-            if (string.IsNullOrEmpty(textbInput.Text)) return;
+            if (string.IsNullOrEmpty(textbInput.Text))
+            {
+                textbInput.Text = "0";
+            }
             
             value2 = double.Parse(textbInput.Text);
 

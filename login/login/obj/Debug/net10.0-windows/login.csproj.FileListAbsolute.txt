@@ -1,0 +1,17 @@
+C:\Users\manuel\Desktop\CTALIM\login\login\bin\Debug\net10.0-windows\login.exe
+C:\Users\manuel\Desktop\CTALIM\login\login\bin\Debug\net10.0-windows\login.deps.json
+C:\Users\manuel\Desktop\CTALIM\login\login\bin\Debug\net10.0-windows\login.runtimeconfig.json
+C:\Users\manuel\Desktop\CTALIM\login\login\bin\Debug\net10.0-windows\login.dll
+C:\Users\manuel\Desktop\CTALIM\login\login\bin\Debug\net10.0-windows\login.pdb
+C:\Users\manuel\Desktop\CTALIM\login\login\obj\Debug\net10.0-windows\login.Form1.resources
+C:\Users\manuel\Desktop\CTALIM\login\login\obj\Debug\net10.0-windows\login.csproj.GenerateResource.cache
+C:\Users\manuel\Desktop\CTALIM\login\login\obj\Debug\net10.0-windows\login.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\manuel\Desktop\CTALIM\login\login\obj\Debug\net10.0-windows\login.AssemblyInfoInputs.cache
+C:\Users\manuel\Desktop\CTALIM\login\login\obj\Debug\net10.0-windows\login.AssemblyInfo.cs
+C:\Users\manuel\Desktop\CTALIM\login\login\obj\Debug\net10.0-windows\login.csproj.CoreCompileInputs.cache
+C:\Users\manuel\Desktop\CTALIM\login\login\obj\Debug\net10.0-windows\login.sourcelink.json
+C:\Users\manuel\Desktop\CTALIM\login\login\obj\Debug\net10.0-windows\login.dll
+C:\Users\manuel\Desktop\CTALIM\login\login\obj\Debug\net10.0-windows\refint\login.dll
+C:\Users\manuel\Desktop\CTALIM\login\login\obj\Debug\net10.0-windows\login.pdb
+C:\Users\manuel\Desktop\CTALIM\login\login\obj\Debug\net10.0-windows\login.genruntimeconfig.cache
+C:\Users\manuel\Desktop\CTALIM\login\login\obj\Debug\net10.0-windows\ref\login.dll

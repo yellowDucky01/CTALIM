@@ -1,6 +1,6 @@
 namespace Calculator
 {
-    internal static class Program
+    internal static class Calculatation
     {
         /// <summary>
         ///  The main entry point for the application.

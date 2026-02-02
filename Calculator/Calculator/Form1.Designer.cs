@@ -360,12 +360,13 @@
             // 
             // labelResult
             // 
+            labelResult.AutoSize = true;
             labelResult.Font = new Font("Segoe UI", 24F, FontStyle.Regular, GraphicsUnit.Point, 0);
             labelResult.ForeColor = SystemColors.ButtonHighlight;
             labelResult.Location = new Point(30, 18);
             labelResult.Name = "labelResult";
             labelResult.RightToLeft = RightToLeft.No;
-            labelResult.Size = new Size(312, 45);
+            labelResult.Size = new Size(37, 45);
             labelResult.TabIndex = 24;
             labelResult.Text = "0";
             labelResult.TextAlign = ContentAlignment.TopRight;
@@ -402,6 +403,7 @@
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
